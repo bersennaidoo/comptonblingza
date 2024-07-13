@@ -3,6 +3,10 @@ languageCode = 'en-us'
 title = 'Compton Bling ZA'
 theme = "shopbs5"
 
+[markup.goldmark.renderer]
+unsafe = true
+
+# Dependencie mounts
 [module]
 [[module.mounts]]
 source = "node_modules/bootstrap/scss"
@@ -16,51 +20,111 @@ target = "static/fontawesome"
 source = "node_modules"
 target = "static/js"
 
-[menus]
-[[menus.main]]
-  identifier = "Home"
-  name = "Home"
-  url = "/"
-  weight = 100
+# CSS Plugins
+[[params.plugins.css]]
+link = "https://fonts.googleapis.com/css?family=Droid+Serif:400|Josefin+Sans:300,400,600,700"
 
-[[menus.main]]
-  identifier = "Shop"
-  name = "Shop"
-  url = "/shop"
-  weight = 110
+[[params.plugins.css]]
+link = "themefisher-font/themefisher-font.min.css"
 
-[[menus.main]]
-  identifier = "About"
-  name = "About"
-  url = "/about"
-  weight = 200
+[[params.plugins.css]]
+link = "slick/slick.min.css"
 
-[[menus.main]]
-  identifier = "Contact"
-  name = "Contact"
-  url = "/contact"
-  weight = 300
+[[params.plugins.css]]
+link = "https://cdn.snipcart.com/themes/v3.0.27/default/snipcart.css"
 
-[[menus.footer]]
-identifier = "Home"
+# JS Plugins
+[[params.plugins.js]]
+link = "plugins/slick/slick.min.js"
+
+[[params.plugins.js]]
+link = "https://cdn.snipcart.com/themes/v3.0.27/default/snipcart.js"
+
+########################### Default parameters ##########################
+[params]
+logo = "images/400x300.png"
+logo_width = "100px"
+# Meta data
+description = "This is meta description"
+author = "Bersen Naidoo"
+# currency
+currency = "R"
+# contact form action
+contact_form_action = "#" # contact form works with https://formspree.io
+
+# Preloader
+[params.preloader]
+enable = "enable"
+preloader = "/images/400x300.png" # use .png , .svg or .gif format
+
+# Snipcart
+[params.snipcart]
+enable = true
+# snipcart public api key
+snipcart_api = "M2I5NmZmNDAtZDhhYi00NDEwLWE1YmYtOGJmMzYwMTFkMGQxNjM4NDg2ODU5MTIxNDMxNDM0"
+
+# Subscription
+[params.subscription]
+# mailchimp subsciption
+mailchimp_form_action = "https://gmail.us4.list-manage.com/subscribe/post?u=463ee871f45d2d93748e77cad&amp;id=a0a2c6d074" # replace this url with yours
+mailchimp_form_name = "b_463ee871f45d2d93748e77cad_a0a2c6d074"                                                           # replace this code with yours
+
+
+################################### English language #####################################
+[Languages.en]
+languageName = "En"
+languageCode = "en-us"
+weight = 1
+# copyright
+copyright = "Designed By [ThraceStudios](https://thracestudios.com/)"
+
+
+###################################### Navigation english ######################################
+
+# homepage section menu
+[[Languages.en.menu.main]]
 name = "Home"
 url = "/"
-weight = 100
+weight = 1
 
-[[menus.footer]]
-identifier = "About"
-name = "About"
-url = "/about"
-weight = 200
+[[Languages.en.menu.main]]
+name = "Products"
+url = "products/"
+weight = 2
 
-[[menus.footer]]
-identifier = "Contact"
+[[Languages.en.menu.main]]
+name = "Blog"
+url = "blog/"
+weight = 3
+
+[[Languages.en.menu.main]]
+name = "Review"
+pre = "#"
+url = "testimonial"
+weight = 4
+
+[[Languages.en.menu.main]]
 name = "Contact"
-url = "/contact"
-weight = 300
+url = "contact/"
+weight = 5
 
-[[menus.footer]]
-identifier = "Privacy Policy"
+# footer menu
+[[Languages.en.menu.footer]]
+name = "Blog"
+url = "blog/"
+weight = 1
+
+[[Languages.en.menu.footer]]
+name = "Contact"
+url = "contact/"
+weight = 2
+
+[[Languages.en.menu.footer]]
+name = "Terms & Conditions"
+url = "terms-conditions/"
+weight = 3
+
+[[Languages.en.menu.footer]]
 name = "Privacy Policy"
-url = "/privacy"
-weight = 400
+url = "privacy-policy/"
+weight = 4
