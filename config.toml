@@ -1,4 +1,4 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://comptonblingza.netlify.app/'
 languageCode = 'en-us'
 title = 'Compton Bling ZA'
 theme = "shopbs5"
