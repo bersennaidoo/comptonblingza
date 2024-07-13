@@ -1,0 +1,66 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'Compton Bling ZA'
+theme = "shopbs5"
+
+[module]
+[[module.mounts]]
+source = "node_modules/bootstrap/scss"
+target = "assets/scss"
+
+[[module.mounts]]
+source = "node_modules/@fortawesome/fontawesome-free"
+target = "static/fontawesome"
+
+[[module.mounts]]
+source = "node_modules"
+target = "static/js"
+
+[menus]
+[[menus.main]]
+  identifier = "Home"
+  name = "Home"
+  url = "/"
+  weight = 100
+
+[[menus.main]]
+  identifier = "Shop"
+  name = "Shop"
+  url = "/shop"
+  weight = 110
+
+[[menus.main]]
+  identifier = "About"
+  name = "About"
+  url = "/about"
+  weight = 200
+
+[[menus.main]]
+  identifier = "Contact"
+  name = "Contact"
+  url = "/contact"
+  weight = 300
+
+[[menus.footer]]
+identifier = "Home"
+name = "Home"
+url = "/"
+weight = 100
+
+[[menus.footer]]
+identifier = "About"
+name = "About"
+url = "/about"
+weight = 200
+
+[[menus.footer]]
+identifier = "Contact"
+name = "Contact"
+url = "/contact"
+weight = 300
+
+[[menus.footer]]
+identifier = "Privacy Policy"
+name = "Privacy Policy"
+url = "/privacy"
+weight = 400
