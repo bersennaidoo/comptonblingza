@@ -97,7 +97,7 @@ products:
 ################################## Subscription ###################
 subscription:
   enable: true
-  bg_image: "/images/promo2.jpg"
+  bg_image: "/images/bg-1.jpg"
   title: "Get Product Updates"
   content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod"
   placeholder: "Your Email Address Here"

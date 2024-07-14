@@ -81,11 +81,11 @@ a {
 }
 
 .bg-1 {
-  background-image: url(../images/call-to-action.jpg);
+  background-image: url(/images/bg-1.jpg);
 }
 
 .bg-orange {
-  background: #f9a743;
+  background: #29303A;
 }
 
 .bg-opacity {
@@ -187,12 +187,12 @@ a:active {
   font-size: 18px;
   padding: 15px 40px;
   display: inline-block;
-  background-color: #f9a743;
-  box-shadow: 0 15px 40px rgba(249, 167, 68, 0.5);
+  background-color: #29303A;
+  box-shadow: 0 15px 40px rgba(117, 113, 108, 0.5);
   background-image: linear-gradient(bottom, rgba(255, 239, 206, 0) 0%, rgba(255, 239, 206, 0.25) 100%);
 }
 .btn-main:hover, .btn-main:focus {
-  background-color: #f9a743;
+  background-color: #29303A;
   color: #fff;
 }
 
@@ -259,7 +259,7 @@ header.sticky-top {
 }
 
 .badge-primary {
-  background-color: #f9a743;
+  background-color: #29303A;
 }
 
 /*--
@@ -313,7 +313,7 @@ header.sticky-top {
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  background: #f9a743;
+  background: #29303A;
   padding: 5px 10px;
   border-radius: 40px;
   width: 50px;
@@ -336,7 +336,7 @@ header.sticky-top {
   font-size: 40px;
   display: inline-block;
   margin-bottom: 20px;
-  color: #f9a743;
+  color: #29303A;
 }
 .testimonials .testimonial-block p {
   font-family: "Droid Serif", serif;
@@ -446,7 +446,7 @@ s.price {
   height: 50px;
 }
 .form-control:focus {
-  border-color: #f9a743;
+  border-color: #29303A;
   box-shadow: none;
 }
 .form-control::placeholder {
@@ -538,7 +538,7 @@ textarea.form-control {
   text-align: left !important;
 }
 .content blockquote {
-  border-left: 1px solid #f9a743;
+  border-left: 1px solid #29303A;
   padding: 20px;
 }
 .content blockquote p {
@@ -557,7 +557,7 @@ textarea.form-control {
   text-decoration: none !important;
 }
 .link-title:hover {
-  color: #f9a743;
+  color: #29303A;
 }
 
 /*# sourceMappingURL=custom.css.map */
