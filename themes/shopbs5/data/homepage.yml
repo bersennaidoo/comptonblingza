@@ -1,7 +1,7 @@
 ############################# banner ############################
 banner:
   enable: true
-  title: "Believe in Technology, Make the change"
+  title: "Believe in Bling, Make the change"
   content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, modi fugit in veritatis labore perferendis. Minima hic at, nostrum nihil!"
   image: "/images/kings-chain.jpg"
   button:
@@ -53,7 +53,7 @@ features:
 promo:
   enable: true
   image: "/images/promo.jpg"
-  title: "Designed by professional , the benefit for creative gigs"
+  title: "Designed by professionals , the benefit for creative style"
   content:
     "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia vel labore, deleniti minima
     nisi, velit atque quaerat impedit ea maxime sunt accusamus at obcaecati dolor iure iusto omnis quis eum.
@@ -63,11 +63,11 @@ promo:
 ############################# About Product #######################
 about_product:
   enable: true
-  title: "Why Choose Apple Watch"
+  title: "Why Choose Compton Bling ZA Jewellery"
   items:
     # about product item loop
     - image: "images/showcase/promo2.jpg"
-      title: "Lorem ipsum dolor sit amet."
+      title: "Make a statement, with style"
       content:
         "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, sed, assumenda. Tenetur
         sed esse, voluptas voluptate est veniam numquam, quis magni. Architecto minus suscipit
@@ -79,7 +79,7 @@ about_product:
 
     # about product item loop
     - image: "images/showcase/promo2.jpg"
-      title: "Lorem ipsum dolor sit amet."
+      title: "Leave a legacy"
       content:
         "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, sed, assumenda. Tenetur
         sed esse, voluptas voluptate est veniam numquam, quis magni. Architecto minus suscipit

@@ -3,10 +3,10 @@ title: "Contact"
 description : "this is a meta description"
 
 office:
-  title : "Central Office"
+  title : "Head Office"
   mobile : "+27610551773 - +27836837575"
   email : "comptonblingza1985@gmail.com"
-  location : "Phoenix, Durban, ZAR"
+  location : "45 rosehaven drive, Forrest haven, Phoenix, 4068"
   content : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna"
 
 # opennig hour
