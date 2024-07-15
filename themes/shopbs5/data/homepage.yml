@@ -3,7 +3,7 @@ banner:
   enable: true
   title: "Believe in Bling, Make the change"
   content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, modi fugit in veritatis labore perferendis. Minima hic at, nostrum nihil!"
-  image: "/images/watch-2.jpg"
+  image: "images/watch-2.jpg"
   button:
     enable: true
     label: "Browse All Products"
@@ -13,7 +13,7 @@ banner:
 features:
   enable: true
   title: "Our Core Features"
-  image: "/images/watch-2.jpg"
+  image: "images/watch-2.jpg"
 
   # feature at the left of the image
   left_side:
@@ -52,7 +52,7 @@ features:
 ############################# promo ############################
 promo:
   enable: true
-  image: "/images/watch.jpg"
+  image: "images/watch.jpg"
   title: "Designed by professionals , the benefit for creative style"
   content:
     "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia vel labore, deleniti minima
