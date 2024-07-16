@@ -42,7 +42,7 @@ link = "https://cdn.snipcart.com/themes/v3.0.27/default/snipcart.js"
 
 ########################### Default parameters ##########################
 [params]
-logo = "images/400x300.png"
+logo = "images/logo.png"
 logo_width = "100px"
 # Meta data
 description = "This is meta description"
